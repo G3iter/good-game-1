@@ -103,6 +103,7 @@ class WebService {
 		if (isset($_SESSION['active-user'])) {
 			unset($_SESSION['active-user']);
 		}
+		$this->remove_games_from_cart();
 	}
 
 }

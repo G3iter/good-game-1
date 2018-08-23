@@ -33,6 +33,11 @@
     <link rel="stylesheet" type="text/css" href="assets/scss/main.css">
 
     <title>Good Game</title>
+    <style type="text/css">
+        body {
+            color: #afafaf;
+        }
+    </style>
 </head>
 
 <body>

@@ -4,7 +4,7 @@
 ?>
     <!-- Product page -->
     <br>
-    <div class="contianer">
+    <div class="container">
         <div class="row">
             <div class="col-4" id="resize-left">
                 <img src="https://ubistatic19-a.akamaihd.net/resource/en-us/game/far-cry/far-cry-5/fc_main-og-share-image_ncsa.jpg" width="500"
