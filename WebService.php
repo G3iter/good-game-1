@@ -24,7 +24,7 @@ class WebService {
 		mysqli_close($this->db);
 	}
 
-	protected function insert_data( $tablename, $cols, $vals ) {
+	protected function insert_data($tablename, $cols, $vals ) {
 
 		$columns = implode(", ", $cols);
 		$values = implode("', '", $vals);

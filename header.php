@@ -48,7 +48,7 @@
                     $username = $parts[0];
                     ?>
                     <h3 style="display: inline-block;">Greetings, <?php echo $username; ?></h3>
-                    <form action="#" method="POST" style="display: inline-block;"">
+                    <form action="#" method="POST" style="display: inline-block;">
                         <input class="button" type="submit" name="log-out" value="Log Out">
                     </form>
                 <?php } else { ?>
