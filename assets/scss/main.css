@@ -1,0 +1,267 @@
+.button {
+  background-color: #130e24;
+  border: white;
+  border-style: solid;
+  border-width: 1.5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: center; }
+  .button:hover {
+    color: grey;
+    border: white; }
+
+.button-tag {
+  background-color: #1c0a22;
+  border: #2f1a2f;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #a7a3a3;
+  border-width: 0.1px; }
+  .button-tag:hover {
+    color: grey;
+    border: white; }
+
+.button-landing {
+  background-color: #4247d1;
+  border: #2f1a2f;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer; }
+  .button-landing:hover {
+    color: grey;
+    border: white; }
+
+.landing-page {
+  background-color: #2f1a2f;
+  padding: 200px; }
+
+.landing-page-header h1 {
+  float: left;
+  font-size: 15px;
+  line-height: 40px;
+  color: white; }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  background-color: #1c0a22; }
+
+#border {
+  border-color: white;
+  border-style: solid;
+  border-width: 1px; }
+
+#resize-right {
+  margin-right: 5%; }
+
+#resize-left {
+  margin-left: 5%; }
+
+.stick-right {
+  float: right; }
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 126px;
+  left: 39px;
+  background-color: rgba(0, 0, 0, 0.507);
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.landing-page-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px; }
+  .landing-page-grid a {
+    margin-right: auto;
+    margin-left: auto; }
+
+.landing-page-grid-item {
+  padding: 20px;
+  width: 10%; }
+
+.landing-page-grid-left {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px; }
+
+.news_layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto; }
+
+.media {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px auto auto;
+  position: relative; }
+
+.media .image {
+  height: 200px;
+  grid-column: 1;
+  grid-row: 1;
+  background-color: red;
+  position: relative;
+  overflow: hidden; }
+
+.media .image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  max-width: 100%;
+  height: auto; }
+  .media .image img h4 {
+    grid-column: 1;
+    grid-row: 2; }
+  .media .image img p {
+    grid-column: 1;
+    grid-row: 3; }
+
+.text-botom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 40px;
+  color: white;
+  font-size: 20px; }
+
+.text-botom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: white;
+  font-size: 20px; }
+
+body {
+  background-color: #2f1a2f; }
+
+.header {
+  overflow: hidden;
+  background-color: #130e24;
+  padding: 20px 10px;
+  /* Style the header links */ }
+  .header a {
+    float: left;
+    color: #706e7c;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+    /* Change the background color on mouse-over */
+    /* Style the active/current link*/ }
+    .header a.logo {
+      font-size: 25px;
+      font-weight: bold;
+      margin: auto; }
+    .header a:hover {
+      background-color: #2f1a2f;
+      color: white; }
+    .header a.active {
+      background-color: dodgerblue;
+      color: white; }
+
+.header-cat {
+  overflow: hidden;
+  background-color: #0d0822ab;
+  padding: 20px 10px;
+  /* Style the header links */ }
+  .header-cat a {
+    float: left;
+    color: #706e7c;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+    /* Change the background color on mouse-over */
+    /* Style the active/current link*/ }
+    .header-cat a.logo {
+      font-size: 25px;
+      font-weight: bold;
+      margin: auto; }
+    .header-cat a:hover {
+      background-color: #2f1a2f;
+      color: white; }
+    .header-cat a.active {
+      background-color: dodgerblue;
+      color: white; }
+
+.headerbottom {
+  border-color: #2a233b;
+  border-top-style: solid;
+  border-width: 1px; }
+
+/* Float the link section to the right */
+.header-right {
+  float: right; }
+
+.resize-best-fit {
+  /* Resize to best fit and retain aspect ratio.
+     Will cause gap if aspect ratio of box is different from image. */
+  background-size: contain; }
+
+.footer {
+  background-color: #2f1a2f; }
+
+.agilefooter {
+  background-color: #262626;
+  padding: 75px 0; }
+
+.agilefooter-grid, .agilefooterbottom-grid {
+  padding: 0; }
+
+.agilefooter-grid h4 {
+  text-align: left;
+  color: #FFF;
+  margin-bottom: 20px; }
+
+.agilefooter-grid ul li {
+  display: block;
+  color: #4CAF50;
+  line-height: 25px; }
+  .agilefooter-grid ul li a {
+    color: #4CAF50; }
+    .agilefooter-grid ul li a:hover {
+      color: #EEE; }
+
+.agilefooterbottom {
+  margin-top: 10px;
+  padding-top: 30px;
+  border-top: 1px solid #777; }
+
+.copyright p {
+  color: white;
+  line-height: 25px;
+  margin-top: 13px; }
+.copyright a {
+  color: white;
+  font-family: 'Montserrat', sans-serif; }
+  .copyright a:hover {
+    color: #FFF; }
+
+/*# sourceMappingURL=main.css.map */

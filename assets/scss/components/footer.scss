@@ -1,0 +1,61 @@
+.footer {
+  background-color: $color-primary;
+}
+
+// Footer
+
+.agilefooter {
+	background-color: #262626;
+	padding: 75px 0;
+}
+
+.agilefooter-grid, .agilefooterbottom-grid {
+	padding: 0;
+}
+
+.agilefooter-grid h4 {
+	text-align: left;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+
+.agilefooter-grid {
+  ul li {
+	display: block;
+	color: #4CAF50;
+  line-height: 25px;
+  
+      a {
+      color: #4CAF50;
+    
+      &:hover {
+        color: #EEE;
+      }
+    }
+  }
+}
+
+.agilefooterbottom {
+	margin-top: 10px;
+	padding-top: 30px;
+	border-top: 1px solid #777;
+}
+
+// Copyright
+
+.copyright {
+  p {
+    color: $color-text;
+    line-height: 25px;
+    margin-top: 13px;
+  }
+
+  a {
+    color: $color-text;
+    font-family: 'Montserrat', sans-serif;
+
+    &:hover {
+      color: #FFF;
+    }
+  }
+}
