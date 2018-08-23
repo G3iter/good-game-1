@@ -35,7 +35,7 @@
     <title>Good Game</title>
 </head>
 
-<body style="background-color: #fff;">
+<body>
     <!--TODO: Cia deti visa content (i #app vidu)-->
 
     <!-- Header -->
