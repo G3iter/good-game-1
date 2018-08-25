@@ -63,10 +63,10 @@ class WebService {
 	public function add_game_to_cart() {
 		
         if (!isset($_SESSION['games'])) {
-            $games = array('Far Cry 5');
+            $games = array($_POST["add-cart-game"]);
         } else {
             $games = $_SESSION['games'];
-            $games[] = 'Far Cry 5';
+            $games[] = $_POST["add-cart-game"];
         }
         $_SESSION['games'] = $games;
         $_SESSION['item-just-added'] = true;
